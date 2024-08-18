@@ -17,7 +17,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-footer">
+      <div id="unity-footer" style="display: none !important;">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Flipper Cube</div>
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
