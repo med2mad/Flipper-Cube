@@ -29,3 +29,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+#unity-footer{
+    display: none;
+}
